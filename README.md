@@ -63,7 +63,7 @@
      ```
    - **Вывод на экране:**  
      ```
-     -rw-r--r-- 1 root root 123 Mar 12 01:00 index.html
+     -rwxr-xr-x 1 root root 125 Mar 11 23:57 index.html
      ```
    - Закрытие контейнера командой `exit`.
      <img width="681" height="210" alt="Снимок экрана 2026-03-12 020503" src="https://github.com/user-attachments/assets/7d984df4-4cab-4692-b437-e52479b7a385" />
