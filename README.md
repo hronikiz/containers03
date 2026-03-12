@@ -37,6 +37,7 @@
      docker build -t containers03 .
      ```
    - **Время создания образа:** около 1–2 минут (зависит от компьютера).
+   <img width="1267" height="491" alt="Снимок экрана 2026-03-12 020148" src="https://github.com/user-attachments/assets/8f9399a5-4362-4457-9c80-5e32e5c63733" />
 
 4. **Запуск контейнера**
    - Команда запуска:  
@@ -44,9 +45,7 @@
      docker run --name containers03 containers03
      ```
    - **Вывод в консоли:**  
-     ```
-     hello from <имя_хоста>
-     ```
+     <img width="581" height="49" alt="Снимок экрана 2026-03-12 020159" src="https://github.com/user-attachments/assets/974c0cea-6755-4574-a05f-3392568b2dbf" />
 
 5. **Удаление контейнера и повторный запуск с bash**
    - Удаление контейнера:  
@@ -67,6 +66,7 @@
      -rw-r--r-- 1 root root 123 Mar 12 01:00 index.html
      ```
    - Закрытие контейнера командой `exit`.
+     <img width="681" height="210" alt="Снимок экрана 2026-03-12 020503" src="https://github.com/user-attachments/assets/7d984df4-4cab-4692-b437-e52479b7a385" />
 
 ## Выводы
 - Docker позволяет создавать изолированные контейнеры с приложениями.  
